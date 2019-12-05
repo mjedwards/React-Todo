@@ -1,0 +1,17 @@
+div .items {
+  width: 25%;
+  height: 150px;
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div .items:hover {
+  cursor: pointer;
+}
+
+div .complete {
+  text-decoration: line-through;
+}
